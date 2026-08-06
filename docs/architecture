@@ -1,0 +1,23 @@
+                Internet
+                    │
+                    ▼
+             SSH Attacker
+                    │
+                    ▼
+           Cowrie SSH Honeypot
+                    │
+             cowrie.json
+             cowrie.log
+                    │
+                    ▼
+        Bash Monitoring Scripts
+        ├── analyze_logs.sh
+        ├── detect_bruteforce.sh
+        ├── block_ip.sh
+        └── generate_report.sh
+                    │
+                    ▼
+            Security Report
+                    │
+                    ▼
+          Firewall (iptables)
